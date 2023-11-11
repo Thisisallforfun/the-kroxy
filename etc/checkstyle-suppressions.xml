@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+
+    Copyright Kroxylicious Authors.
+
+    Licensed under the Apache Software License version 2.0, available at http://www.apache.org/licenses/LICENSE-2.0
+
+-->
+<!DOCTYPE suppressions PUBLIC
+        "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+        "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+
+<suppressions>
+    <!-- Generated classes which we do not edit -->
+    <suppress checks=".*"
+              files="io[/\\]kroxylicious[/\\]proxy[/\\].*(Builder|Editable|Fluent|Nested|Visitor|Visitable).*\.java"/>
+    <suppress checks=".*"
+              files="io[/\\]kroxylicious[/\\]benchmarks[/\\]jmh_generated[/\\].*"/>
+</suppressions>
